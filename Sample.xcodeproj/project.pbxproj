@@ -47,6 +47,7 @@
 		9ED85C2B1F1747990050883F /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED85C2F1F1747990050883F /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 		9ED85C311F1747990050883F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED85C401F1754170050883F /* Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				9ED85C231F1747990050883F /* SampleTests */,
 				9ED85C2E1F1747990050883F /* SampleUITests */,
 				9ED85C0D1F1747990050883F /* Products */,
+				9ED85C3D1F1754170050883F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +99,7 @@
 		9ED85C0E1F1747990050883F /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				9ED85C401F1754170050883F /* Sample.entitlements */,
 				9ED85C0F1F1747990050883F /* AppDelegate.swift */,
 				9ED85C111F1747990050883F /* ViewController.swift */,
 				9ED85C131F1747990050883F /* Main.storyboard */,
@@ -123,6 +126,13 @@
 				9ED85C311F1747990050883F /* Info.plist */,
 			);
 			path = SampleUITests;
+			sourceTree = "<group>";
+		};
+		9ED85C3D1F1754170050883F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +205,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = C9C645VSQP;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 					9ED85C1F1F1747990050883F = {
 						CreatedOnToolsVersion = 8.3.2;
